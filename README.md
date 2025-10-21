@@ -2,6 +2,8 @@
 
 该目录提供数学公式渲染的核心实现：输入 LaTeX 字符串，输出 SVG 文本，可独立运行，也可编译成共享库给 Go 等语言调用。
 
+搭配 Go 服务端返回 SVG 的示例项目：<https://github.com/ShellMonster/Latex-API-Go>
+
 ---
 
 ## 项目结构
