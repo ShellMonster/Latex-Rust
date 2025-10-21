@@ -43,6 +43,8 @@ FORMULA="E=mc^2" cargo run --bin render_svg
 | `FORMULA_SVG_MODE` | `text` | `text`：输出 `<text>`；`paths`：运行 usvg/resvg 转换为 `<path>` |
 | `FORMULA_SVG_EMBED_FONT` | `0` | `1` 时在 SVG 中嵌入 `@font-face`（体积会增大到数百 KB） |
 
+> 目录中自带两份示例产物：`render_svg`（在 CentOS 编译的可执行文件）与 `libformula.dylib`（在 macOS 构建的共享库），可直接运行或参考其构建方式。
+
 ---
 
 ## 编译共享库
